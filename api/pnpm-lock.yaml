@@ -1,0 +1,32 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@azure/functions':
+        specifier: ^1.0.1-beta1
+        version: 1.2.3
+      typescript:
+        specifier: ^3.3.3
+        version: 3.9.10
+
+packages:
+
+  '@azure/functions@1.2.3':
+    resolution: {integrity: sha512-dZITbYPNg6ay6ngcCOjRUh1wDhlFITS0zIkqplyH5KfKEAVPooaoaye5mUFnR+WP9WdGRjlNXyl/y2tgWKHcRg==}
+
+  typescript@3.9.10:
+    resolution: {integrity: sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+
+snapshots:
+
+  '@azure/functions@1.2.3': {}
+
+  typescript@3.9.10: {}

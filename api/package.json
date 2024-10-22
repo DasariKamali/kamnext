@@ -1,0 +1,21 @@
+{
+  "description": "",
+  "devDependencies": {
+    "@azure/functions": "^1.0.1-beta1",
+    "typescript": "^3.3.3"
+  },
+  "name": "",
+  "scripts": {
+    "build": "tsc",
+    "build:production": "pnpm prestart && pnpm prune --production",
+    "prestart": "pnpm build && func extensions install",
+    "start": "pnpm --parallel start:host watch",
+    "start:host": "func start",
+    "test": "echo \"No tests yet...\"",
+    "watch": "tsc --w"
+  },
+  "version": "",
+  "dependencies": {
+    "": "file:"
+  }
+}
